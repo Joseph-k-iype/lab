@@ -1,0 +1,55 @@
+Spline interpolation is a significant tool in computer graphics, computer-aided geometric
+design and engineering as well. Convexity is prevalent shape feature of data. Therefore,
+the need for convexity preserving interpolating curves and surfaces according to the given
+data becomes inevitable. The aspiration of this paper is to preserve the hereditary attribute
+that is the convexity of data. There are many applications of convexity preserving of data,
+for instance, in the design of telecommunication systems, nonlinear programming arising in
+engineering, approximation of functions, optimal control, and parameter estimation.
+The problem of convexity-preserving interpolation has been considered by a number
+of authors 1–21 and references therein. Bao et al. 1 used function values and first
+derivatives of function to introduce a rational cubic spline cubic/cubic. A method for
+value control, inflection-point control and convexity control of the interpolation at a point
+was developed to be used in practical curve design. Asaturyan et al. 3 constructed a sixdegree piecewise polynomial interpolant for the space curves to satisfy the shape-preserving
+properties for collinear and coplanar data.
+Brodlie and Butt 4 developed a piecewise rational cubic function to preserve the
+shape of convex data. In 4, the authors inserted extra knots in the interval where the
+interpolation loses the convexity of convex data which is the drawback of this scheme.
+Carnicer et al. 5 analyzed the convexity-preserving properties of rational Bezier and non- ´
+uniform rational B-spline curves from a geometric point of view and also characterize totally
+positive systems of functions in terms of geometric convexity-preserving properties of the
+rational curves.
+Clements 6 developed a C2 parametric rational cubic interpolant with tension
+parameter to preserve the convexity. Sufficient conditions were derived to preserve the
+convexity of the function on strictly left/right winding polygonal line segments. Costantini
+and Fontanella 8 preserved the convexity of data by semi-global method. The scheme has
+some research gaps like the degree of rectangular patches in the interpolant that was too
+large; the resulting surfaces were not visually pleasing and smooth.
+Delbourgo and Gregory 9 developed an explicit representation of rational cubic
+function with one free parameter which can be used to preserve the convexity of convex data.
+Meng and Shi Long 11 also developed an explicit representation of rational cubic function
+with two free parameters which can be used to preserve the convexity of convex data. In the
+schemes 9, 11, there was no choice for user to refine the convexity curve as desired. The
+rational spline was represented in terms of first derivative values at the knots and provided
+an alternative to the spline under tension to preserve the shape of monotone and convex data
+by Gregory 10.
+McAllister 12, Passow 13, and Roulier 14 considered the problem of interpolating
+monotonic and convex data in the sense of monotonicity and convexity preserving. They
+used a piecewise polynomial Bernstein-Bezier function and introduce additional knots into ´
+their schemes. Such a scheme for quadratic spline interpolation was described by McAllister
+12 and was further developed by Schumaker 15 using piecewise quadratic polynomial
+which was very economical, but the method generally inserts an extra knot in each interval
+to interpolate.
+Sarfraz and Hussain 17 used the rational cubic function with two shape parameters
+to solve the problem of convexity preserving of convex data. Data-dependent sufficient
+constraints were derived to preserve the shape of convex data. Sarfraz 18 developed a
+piecewise rational cubic function with two families of parameters. In 18, the authors derived
+the sufficient conditions on shape parameters to preserve the physical shape properties of
+data. Sarfraz 19–21 used piecewise rational cubic interpolant in parametric context for
+shape preserving of plane curves and scalar curves with planar data. The schemes 17–21
+are local, but, unfortunately, they have no flexibility in the convexity-preserving curves.
+In this paper, we construct a rational cubic function with three free parameters. One
+of the free parameter is used as a constrained to preserve the convexity of convex data while
+the other two are left free for the user to modify the convex curve. Sufficient data-dependent
+constraints are derived. Our scheme has a number of attributes over the existing schemes.
+i In this paper, the shape-preserving of convex data is achieved by simply imposing
+the conditions subject to data on the shape parameters used in the description of
